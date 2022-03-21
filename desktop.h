@@ -18,6 +18,7 @@ launch-desktop()
 		# this line defines which option to choose by default
 		cmd.exe /C C:/Users/Dell/large-window.xlaunch
 	fi
+	# multiple windows option is not yet implemented as it is not working correctly
 
 	mate-session
 }
