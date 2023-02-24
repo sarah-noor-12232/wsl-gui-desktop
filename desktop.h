@@ -7,6 +7,8 @@ launch-desktop()
 	sudo /etc/init.d/dbus start &> /dev/null
 		
 	#cmd.exe /C C:/Users/Dell/config1.xlaunch
+		
+	#NOTE: Replace "C:/Users/Dell" with path to where you stored the xlaunch files in lines 14, 16, 18, 21
 
 	if [[ "$@" == *large-window* || "$@" == *large* && "$@" == *window* ]]; then
 		cmd.exe /C C:/Users/Dell/large-window.xlaunch
